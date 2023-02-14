@@ -1,0 +1,136 @@
+.order-top-section1 {
+  width: auto;
+  position: relative;
+  text-align: center;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.order-top-section1 .order-top-logo img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: auto;
+  transform: none;
+}
+
+.order-top-section1 h1 {
+  color: #c69736;
+  text-align: center;
+  letter-spacing: 0.3rem;
+}
+
+.order-top-section1 button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background: #c69736;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.order-top-section1 p {
+  color: #fff;
+  text-align: center;
+}
+
+.order-middle-section {
+  display: flex;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.order-middle-section div {
+  border: 2px solid #c69736;
+  height: auto;
+  width: 100%;
+  background: rgb(56, 56, 56);
+}
+
+.order-middle-section p {
+  color: #c69736;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.order-middle-section div h1 {
+  color: #c69736;
+  padding-left: 2rem;
+}
+
+.order-id p {
+  display: inline;
+}
+
+.order-date p {
+  display: inline;
+}
+
+.order-total p {
+  display: inline;
+}
+
+.order-middle-section section {
+  padding: 1rem;
+}
+
+.cart-confirmation {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  
+  flex-direction: column;
+  border: 2px solid #c69736;
+  margin-top: 3rem;
+}
+
+.cart-confirmation p {
+  color: #c69736;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.top-shelf1 {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-left: 4rem;
+  padding-right: 10rem;
+  border-bottom: 2px solid gray;
+  margin-right: 4rem;
+}
+
+.middle-shelf {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-bottom: 2px solid gray;
+}
+
+.middle-shelf section {
+  display: flex;
+}
+
+.middle-shelf img {
+  height: 100px;
+  width: 100px;
+}
+
+.lower-shelf {
+  width: 30%;
+  position: relative;
+  left: 65%;
+  height: auto;
+}
+.orderbtn{
+  padding: 10px;
+  background: #c69736;
+}

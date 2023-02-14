@@ -1,0 +1,252 @@
+.checkout-page {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  border-bottom: 1px solid #c69736;
+}
+
+.checkout-page input {
+  border-radius: 0;
+  background: transparent;
+  border: 1px solid #c69736;
+  color: #fff;
+  margin: 10px 15px 10px 0;
+}
+.continue-btn{
+  padding: 1rem;
+    margin: 1rem !important;
+    margin-left: 0 !important;
+    color: #000 !important;
+    background-color: #c69736 !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+}
+.address-box{
+  padding: 5px 108px 35px 50px;
+}
+.saved-address{
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #c69736;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.select-dot{
+  float: left;
+}
+.select-dot input{
+  padding: 0 !important;
+  margin-top: 4px;
+}
+.contact-info input:active{
+  border-radius: 0;
+}
+.top-info {
+  width: 100%;
+  height: 6vh;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #c69736;
+  color: #c69736;
+}
+
+.top-info h3 {
+  font-weight: 400;
+  margin: 0.4rem;
+  padding-left: 2rem;
+}
+
+.left-info {
+  width: 60%;
+}
+
+.top-logo {
+  width: 100%;
+  height: auto;
+}
+
+.top-logo img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 250px;
+  height: 200px;
+  margin-top: 2rem;
+}
+
+.contact-info {
+  height: auto;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0 50px;
+}
+
+.contact-info p {
+  display: inline;
+  padding: 0;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #c69736;
+}
+
+.just-width {
+  margin-inline: 5%;
+}
+
+.contact-info input {
+  width: 76%;
+  padding: 1rem;
+  margin: 1rem 0;
+  margin-left: 0;
+}
+.lower-info{
+  padding: 0 50px;
+    margin-top: 15px;
+}
+.checkout-form{
+  padding: 0 50px;
+}
+.lower-info h2 {
+  margin: 0;
+  font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #c69736;
+    font-weight: 500;
+    margin-bottom: 10px !important;
+    text-align: left;
+}
+
+.just-border-4 {
+  width: 80%;
+  border-top: 1px solid #fff;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.right-info {
+  height: 150vh;
+  width: 40%;
+  background: rgb(56, 56, 56);
+}
+
+.first-right-div {
+  display: flex;
+  justify-content: flex-start;
+}
+.rightsideinfo-div{
+  width: 49%;
+  border-bottom: none !important;
+}
+.inner-section-info div {
+  border-bottom: 1px solid gray;
+}
+
+.first-right-div img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #c69736;
+}
+.rightsideinfo-total{
+  font-weight: 600;
+    font-size: 24px;
+    display: inline-flex;
+    padding-bottom: 0;
+    margin: 0;
+    margin-bottom: 0;
+}
+.total-box{
+  margin: 15px 0;
+}
+.rightsideinfo-tax{
+  width: 60%;
+  padding-top: 0;
+  margin-top: 0;
+}
+.rightsideinfo-tax{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rightsideinfo-totalprice{
+  margin: 0;
+    display: inline-flex;
+    float: right;
+}
+.item-name{
+  font-family: auto;
+  color: #c69736;
+  margin: 8px 0;
+  letter-spacing: 1px !important;
+}
+.item-price {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.item-number{
+  background: #c69736;
+  padding: 0px 5px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+.second-right-div {
+  padding: 2rem;
+}
+
+.second-right-div input,
+button {
+  padding: 1rem;
+}
+
+.second-right-div input {
+  width: 60%;
+}
+
+.second-right-div button {
+  width: 25%;
+  margin-left: 1rem;
+  color: #fff;
+  background: gray;
+}
+
+.inner-section-info {
+  padding: 1rem;
+  margin: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-info{
+    width: auto;
+    order: 2;
+  }
+  .contact-info{
+    width: auto;
+  }
+  .checkout-page input{
+    width: 90% !important;
+  }
+  .checkout-page input[type="checkbox"]{
+    width: auto !important;
+  }
+  .address-box {
+    padding: 15px 50px;
+  }
+  .top-info{
+    height: auto;
+  }
+  .continue-btn{
+    width: 100%;
+    font-size: 15px;
+  }
+  .inner-section-info {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}

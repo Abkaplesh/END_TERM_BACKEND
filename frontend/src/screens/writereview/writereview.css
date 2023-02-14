@@ -1,0 +1,49 @@
+.reviewcard{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c69736;
+}
+.reviewcard .cardd{    
+    width: 100%;
+    display: flex;
+    margin: 2rem;
+    height: auto;
+}
+.reviewcardbox{
+    border: 1px solid #c69736;
+    padding: 20px;
+    text-align: center;
+}
+.reviewcardbox-img{
+    display: initial;
+}
+.reviewcardbox-title{
+    color: #c69736;
+    font-size: 18px;
+}
+.reviewcardbox-price{
+    font-weight: 500;
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: #fff;
+}
+.reviewcardbox-input{
+    padding: 4px 10px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #C69737;
+    color: #fff;
+}
+.reviewcardbox-btn{
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px solid #C69737;
+    color: #fff;
+    display: -webkit-inline-box;
+    height: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .reviewcard .cardd{
+        display: block;
+    }
+}

@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.topbar-box {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+#username{
+  color:#e0c37c;
+}
+.topbar-language {
+  display: flex;
+  width: 100%;
+}
+.topbar-icons ul li:first-child{
+  padding-top: 9px;
+}
+
+.topbar-currancy-pic {
+  width: 45px;
+  height: 25px;
+}
+.first-li div{
+  margin-top: 25px;
+}
+.second-li {
+  margin-top: 25px;
+    display: inline-flex;
+
+}
+.topbar-currancy-name p {
+  color: rgb(199, 199, 199);
+  border-right: 1px solid rgb(199, 199, 199);
+  margin: 0px;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+.topbar-language-pic svg {
+  color: gray;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.topbar-language-name p {
+  color: rgb(199, 199, 199);
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.topbar-logo {
+  height: 135px;
+  width: 220px;
+  margin-top: 5px;
+}
+
+.topbar-logo-box {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.topbar-icons {
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+}
+.topbar-icons ul {
+  margin-left: 0;
+  margin-right: 15px;
+  float: right;
+}
+.topbar-icons ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+.topbar-icons ul li svg {
+  color: #e0c37c;
+  font-size: 1.5em;
+}
+
+.dropdown-menu.show {
+     display: flex;
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    /* transform: translate(1272px, 82px) !important; */
+    flex-direction: column;
+    z-index: 1000;
+    background: #000;
+    border: 1px solid #c69736;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: left;
+    width: 170px;
+}
+
+.dropdown-menu a {
+  border-bottom: 1px solid gray;
+  padding: 5px 15px;
+}
+
+.counter-cart {
+  position: relative;
+  left: 100%;
+  bottom: 55%;
+  border: 1px solid #c69736;
+  border-radius: 81%;
+  padding-left: 0rem;
+  margin-left: 0rem;
+  text-align: center;
+  background: #c69736;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: bolder;
+}
+
+
+
+/*
+login
+*/
+.container {
+  z-index: 9999;
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.left-box {
+  width: 50%;
+  border: 1px solid black;
+  color: #000;
+  background-color: #c69736;
+}
+
+.right-box {
+  width: 50%;
+  color: #c69736;
+  background: #000;
+  border: 1px solid black;
+}
+
+.login-buttons {
+  position: relative;
+  top: 2%;
+  text-align: center;
+}
+
+.login-buttons h1 {
+  color: #000;
+  text-align: start;
+  padding: 1rem;
+  padding-left: 2.8rem;
+}
+
+.login-buttons button {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  display: none;
+  font-size: 16px;
+}
+.or-text{
+  display: none;
+}
+.upper-buttons {
+  width: 80%;
+  display: flex;
+  margin: 0rem;
+  margin-left: 2.3rem;
+}
+
+.first-button {
+  background-color: transparent;
+  border: 1px solid #c69736;
+  padding: 0.2rem;
+  width: 50%;
+  color: #c69736;
+}
+
+.second-button {
+  border: 1px solid #000;
+  background-color: #c69736;
+  color: #000;
+  padding: 0.2rem;
+  width: 50%;
+}
+
+.form-credentials {
+  width: 80%;
+
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 1rem;
+}
+
+.form-signup-credentials {
+  width: 80%;
+
+  height: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
+  display: none;
+}
+
+.form-credentials h1 {
+  margin-bottom: 2rem;
+}
+
+.form-credentials p {
+  font-size: 14px;
+}
+
+.form-credentials input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 90%;
+  padding: 0.7rem;
+}
+
+.form-credentials button {
+  padding: 1rem;
+  background-color: #c69736;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  margin-top: 2rem;
+  width: 97%;
+}
+
+.form-signup-credentials input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-signup-credentials button {
+  padding: 1rem;
+  background-color: #c69736;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  margin-top: 0.2rem;
+  width: 105%;
+}
+.lower-info {
+  text-align: center;
+}
+
+.lower-info p {
+  margin-top: 1rem;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+}
+.userlogo {
+  background-color: #fff;
+  width: 30%;
+  height: 17vh;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.userlogo img {
+  width: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.close-button {
+  position: absolute;
+  top: -45%;
+}
+
+.bottom-part div {
+  display: inline;
+}
+
+.just-border-5 {
+  border-top: 1px solid #000;
+  height: auto;
+  margin-top: 1.5rem;
+  width: 85% !important;
+  position: relative;
+  left: 10%;
+}
+
+.just-border-6 {
+  border-top: 1px solid #000;
+  height: auto;
+  margin-top: 1.5rem;
+  width: 85% !important;
+  position: relative;
+  right: 10%;
+}
+
+.last-button {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 16px;
+  margin-left: 2.5rem;
+}
+.first-li-logout{
+  padding-top: 35px !important;
+}
+.sign-btn svg{
+  padding-right: 5px;
+}
+.sign-btn span{
+  font-size: 20px;
+}
+.last-button svg{
+  padding-right: 5px;
+}
+.last-button span{
+  font-size: 20px;
+}
+.login-container{
+  display: flex;
+  position: fixed;
+}
+.or-div{
+  display: none !important;
+}
+.modal-closebtn{
+  font-size: 3rem;
+    position: relative;
+    left: 75%;
+}
+.form-credentials input[type="email"]{
+  text-transform: lowercase;
+}
+.form-signup-credentials input[type="email"]{
+  text-transform: lowercase;
+}
+@media only screen and (min-width: 601px) {
+  .menu-toggle{
+    display: none !important;
+  }
+  .user-icon{
+    padding-top: 45px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-credentials{
+    padding: 0 45px;
+    left: auto;
+    transform: none;
+    margin-top: 0;
+  }
+  .modal-closebtn {
+    font-size: 2rem;
+    left: 85%;
+    top: 20px;
+}
+  .activebox{
+    display: block !important;
+  }
+  .login-container{
+    display: block;
+    position: fixed !important;
+  }
+  .left-box{
+    width: auto;
+    text-align: center;
+
+  }
+  .login-buttons h1{
+    font-size: 18px;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 0;
+  }
+  .right-box{
+    width: auto;
+  }
+  .first-li-logout{
+    padding-top: 0 !important;
+  }
+  .container {
+    z-index: 999999;
+    width: 100%;    
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    
+  }
+  .topbar-language {
+   position: absolute;
+   top: 5px;
+   border-bottom: 1px solid #c69736;
+   left: 0px;
+   width: 100%;
+   background-color: black;
+  }
+  .topbar-logo-box img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .topbar-icons {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    margin-top: -5rem;
+    padding-right: 0em;
+  }
+
+  .topbar-icons ul {
+    margin-left: 110px;
+    margin-right: 35px;
+    margin-bottom: -15px;
+    margin-top: 30px;
+}
+
+  .topbar-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .topbar-logo-box {
+    width: 28%;
+    z-index: 9;
+    padding-top: 45px;
+  }
+  .topbar-currancy-name{
+    padding-top: 10px;
+  }
+  .topbar-language-pic{
+    padding-top: 11px;
+  }
+  .counter-cart {
+    width: 60%;
+    margin-top: -0.5rem;
+  }
+  .last-button{
+    margin-left: 20px;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  .last-button svg{
+    right: 10% !important;
+  }
+  .login-buttons button{
+    font-size: 12px;
+    width: 42%;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .sign-btn span {
+    font-size: 13px;
+    display: block;
+}
+.last-button {
+  width: auto;
+  margin-left: 0;
+}
+.last-button span {
+  font-size: 13px;
+}
+  .first-li div {
+    margin-top: -10px;
+}
+.second-li{
+  margin-top: -10px;
+}
+.owl-carousel{
+  z-index: -1 !important;
+}
+.nav1 a {
+  padding: 10px 30px !important;
+  display: block;
+}
+.nav1{
+  display: block !important;
+  text-align: left;
+  padding: 0 !important;
+  border-bottom: 2px solid #c69736;
+}
+.navbar ul{
+  padding: 0 !important;
+}
+.menu-toggle{
+  position: absolute;
+  right: -40px;
+  top: 0;
+  z-index: 10000000000000;
+}
+.dropdown .dropbtn{
+  width: 100%;
+  text-align: left;
+  padding: 10px 30px !important;
+  border-bottom: 1px solid #c69736 !important;
+}
+.dropdown-content{
+  position: initial;
+}
+.dropdown-content a{
+    padding: 10px 50px !important;
+  }
+  .form-credentials h1{
+    font-size: 20px;
+  }
+  .form-credentials input{
+    margin-bottom: 0;
+  }
+  .form-credentials button{
+    margin-top: 1rem;
+  }
+  .topbar-language-name .dropdown .dropbtn{
+    border-bottom: none !important;
+    padding: 10px !important;
+  }
+  .topbar-language-name .dropdown .dropdown-content{
+    position: absolute;
+  }
+}

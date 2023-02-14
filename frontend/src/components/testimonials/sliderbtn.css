@@ -1,0 +1,54 @@
+.owl-next {
+  position: absolute;
+  width: 35px;
+  margin: 0px;
+  font-size: 15px !important;
+  right: 10px;
+  border-radius: 50% !important;
+  height: 35px;
+  color: white !important;
+  background-color:#c69736b0 !important;
+  top: 44%;
+}
+
+.owl-prev {
+  position: absolute;
+  width: 35px;
+  margin: 0px;
+  font-size: 15px !important;
+
+  color: white !important;
+  background-color:#c69736b0 !important ;
+  left: 10px;
+  border-radius: 50% !important;
+  height: 35px;
+  top: 44%;
+}
+.item,
+.item img {
+  width: 100%;
+  height: auto;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 3em;
+  margin: 0px;
+}
+.nav-btn {
+  font-size: 3em;
+}
+.owl-dots {
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}
+.owl-dots button span {
+  width: 10px !important;
+  height: 10px !important;
+  display: none;
+}
+.owl-stage-outer {
+  position: relative !important;
+}
+.owl-nav {
+  margin-top: 0px !important;
+}

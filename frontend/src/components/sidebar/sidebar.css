@@ -1,0 +1,19 @@
+.row a:hover {
+    font-weight: bold;
+}
+
+.welcome-user-name.track-order-heading{
+    color: #c69736;
+    font-weight: 500;
+    padding: 0px 20px;;
+    text-transform: uppercase;
+}
+.address-book div{
+    border-top: 1px solid #c69736;
+    border-bottom: 1px solid #c69736;
+    padding: 10px 20px;
+}
+.address-book div:hover{
+    background: #c69736;
+    color: #000;
+}

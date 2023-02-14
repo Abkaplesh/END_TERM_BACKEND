@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.forhim-top-section {
+  height: auto;
+  background: url("../../assets/images/category-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 1);
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #c69736;
+  font-family: "Poppins", sans-serif;
+}
+
+.forhim-inner-section {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.forhim-inner-section h1 {
+  color: #c69736;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Gill Sans W04 Roman', Calibri, sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.forhim-inner-section p {
+  color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 2rem;
+}
+
+.filter-section {
+  height: 10vh;
+  border-bottom: 2px solid #c69736;
+}
+
+.lower-menu {
+  height: 8vh;
+  border-top: 0px solid #c69736;
+  border-bottom: 1px solid #c69736;
+  color: #c69736;
+}
+
+.lower-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding-top: 0.5rem;
+}
+
+.lower-filters {
+  height: 10vh;
+  border-bottom: 2px solid #c69736;
+}
+
+.products-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.load-more {
+  height: 12vh;
+  border-top: 1px solid #c69736;
+  border-bottom: 2px solid #c69736;
+}
+
+.load-more button {
+  padding: 0.7rem;
+  color: #c69736;
+  background: transparent;
+  border: 2px solid #c69736;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filters {
+  position: relative;
+  top: 1rem;
+  cursor: pointer;
+  font-style: normal;
+}
+.filters i {
+  font-size: 11px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .forhim-inner-section p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .lower-menu{
+    height: 6vh;
+  }
+  .lower-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 0;
+    transform: none;
+    padding-top: 0.5rem;
+  }
+}

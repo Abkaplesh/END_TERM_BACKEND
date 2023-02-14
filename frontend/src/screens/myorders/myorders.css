@@ -1,0 +1,333 @@
+.order-top-section {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: auto;
+  }
+  .activeclass{
+    background: #c69736;
+  }
+  
+  .order-top-logo img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .order-top-section h1 {
+    color: #c69736;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3rem;
+  }
+  
+  .order-top-section button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background: #c69736;
+    color: #000;
+    border: none;
+    border-radius: 0.2rem;
+  }
+  
+  .order-top-section p {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .order-middle-section {
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .order-middle-section div {
+    border: 2px solid #c69736;
+    height: auto;
+    width: 100%;
+    background: rgb(56, 56, 56);
+  }
+  
+  .order-middle-section p {
+    color: #c69736;
+    padding-left: 1rem;
+    font-weight: 600;
+  }
+  
+  .order-middle-section div h1 {
+    color: #c69736;
+    padding-left: 2rem;
+    font-weight: 400;
+  }
+  
+  .order-id p {
+    display: inline;
+  }
+  
+  .order-date p {
+    display: inline;
+  }
+  
+  .order-total p {
+    display: inline;
+  }
+  
+  .order-middle-section section {
+    padding: 1rem;
+  }
+  
+  .cart-confirmation {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #c69736;
+    margin-top: 3rem;
+  }
+  
+  .cart-confirmation p {
+    color: #c69736;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .top-shelf {
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-bottom: 2px solid gray;
+  }
+  
+  .middle-shelf {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-bottom: 2px solid gray;
+  }
+  
+  .middle-shelf section {
+    display: flex;
+    width: 25%;
+  }
+
+  .middle-shelf h2 {
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-left: 0.5rem;
+  }
+
+  .middle-shelf p {
+    color: #fff !important;
+    padding-top: 1.3rem;
+    margin-left: 2rem;
+  }
+  
+  .middle-shelf img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .lower-shelf {
+    width: 30%;
+    position: relative;
+    left: 65%;
+    height: auto;
+  }
+  .order-table{
+    border: 2px solid #C69736;
+    display: block;
+    color: #fff;
+    padding: 15px 35px;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px 135px;
+  }
+  .order-table-th th{
+    color: #c69736;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .order-table-th th:nth-child(1){
+    width: 50%;
+  }
+  .order-table-th th:nth-child(2){
+    width: 30%;
+  }
+  .order-table-th th:nth-child(3){
+    width: 30%;
+  }
+  .order-table-th th:nth-child(4){
+    width: 30%;
+  }
+  .order-table-img a img{
+    width: 100px;
+    height: 100px;
+  }
+  .order-table-img h2{
+    font-weight: 300;
+    margin: 0;
+    font-weight: 500;
+    display: inherit;
+    color: #c69736 !important;
+    vertical-align: inherit;
+    font-size: 20px;
+  }
+  .order-table-img a{
+    display: inherit;
+  }
+  .order-table tr{
+    border-bottom: 1px solid grey;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .myorder-right {
+    width: 68%;
+    display: inline-block;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 80px;
+}
+  .myorder-ulbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background: transparent;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  .myorder-ulbar li{
+    width: 100%;
+    border: 2px solid #c69736;
+    padding: 15px;
+  }
+  .below-row td{
+    padding: 10px 0;
+  }
+  .row-heading{
+    color: #c69736;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .below-row{
+    border-bottom: none !important;
+  }
+  .order-right{
+    width: 77%;
+    display: inline-block;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .myorder-table {
+    border: 2px solid #C69736;
+    display: block;
+    color: #fff;
+    padding: 15px 35px;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.myorder-table-th th{
+  color: #c69736;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.myorder-table-th th:nth-child(1){
+  width: 50%;
+}
+.myorder-table-th th:nth-child(2){
+  width: 15%;
+}
+.myorder-table-th th:nth-child(3){
+  width: 10%;
+}
+.myorder-table-th th:nth-child(4){
+  width: 5%;
+}
+.myorder-table-img a img{
+  width: 100px;
+  height: 100px;
+}
+.myorder-table-img h2{
+  font-weight: 300;
+  margin: 0;
+  font-weight: 500;
+  display: inherit;
+  color: #c69736 !important;
+  vertical-align: inherit;
+  font-size: 20px;
+}
+.myorder-table-img a{
+  display: inherit;
+}
+.myorder-table tr{
+  border-bottom: 1px solid grey;
+}
+  @media only screen and (max-width: 600px) {
+    .payment-left-info{
+      width: 100%;
+      order: 2;
+    }
+    .order-top-section{
+      width: auto;
+    left: 0;
+    padding: 0 20px;
+    transform: none;
+    }
+    .order-middle-section{
+      width: auto;
+      display: block;
+    left: 0;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    transform: none;
+    }
+    .order-top-section button{
+      margin-bottom: 15px;
+    }
+    .order-table{
+      margin: 0 20px;
+      padding: 0 10px;
+    }
+    .order-table-img a img {
+      width: 80px;
+      height: 80px;
+  }
+  .order-table-img h2{
+    font-size:15px;
+  }
+  .myorder-right{
+    margin: 0px 15px;
+    width: auto;
+  }
+  .myorder-ulbar li{
+    width: auto;
+  }
+  .myorder-table{
+    padding: 15px 10px;
+  }
+  .myorder-table-img a img {
+    width: 80px;
+    height: 80px;
+    padding-right: 5px;
+}
+  }

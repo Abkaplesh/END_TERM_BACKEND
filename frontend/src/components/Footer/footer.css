@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.footer {
+  display: flex;
+  height: 60vh;
+  margin-left: 4rem;
+  background-color: #000;
+}
+
+.footer h2 {
+  color: #c69736;
+}
+
+.footer p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+.footer-bottom{
+  background: #000;
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid #c69736;
+}
+.what_txt{
+  display: initial;
+}
+.what_txt i{
+  color: #c69736;
+}
+.whatsapp_div {
+  position: fixed;
+  bottom: 20px;
+  color: #c69736;
+  left: 25px;
+  z-index: 999;
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 7px 12px !important;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 14%);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgb(0 0 0 / 20%);
+  background: #000;
+  border: 2px solid #c69736;
+  animation: animate1 2s linear infinite;
+}
+.footer-categories a{
+  text-transform: uppercase;
+}
+.whatsappbtn {
+  
+}
+.copyName{
+  color: #c69736;
+  margin: 0;
+  margin-left: 4rem;
+  display: inline-block;
+}
+.designName{
+  color: #c69736;
+  margin: 0;
+  float: right;
+  margin-right: 4rem;
+  display: inline-block;
+}
+.col-1 {
+  width: 30%;
+}
+.col-1 img {
+  height: 34vmin;
+}
+
+.col-2 {
+  width: 23%;
+}
+
+.col-2 h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.col-3 {
+  width: 23%;
+}
+
+.col-3 h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.col-4 {
+  width: 23%;
+  margin-right: 2rem;
+}
+
+.col-4 h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.footerborder {
+  position: relative;
+  border-bottom: 2px solid #c69736;
+  width: 30%;
+  left: 12%;
+  margin-bottom: 2rem;
+}
+
+.col-4 div {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.flex i {
+  color: #c69736;
+  font-size: 25px;
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: block;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .col-1 {
+    width: 100%;
+  }
+  .col-1 img {
+    height: 40vmin;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .col-2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .col-3 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .col-4 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .footerborder {
+    position: relative;
+    border-bottom: 2px solid #c69736;
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 2rem;
+  }
+
+  .footer h2,
+  ul {
+    position: relative;
+    left: 0;
+    transform: none;
+    padding-left: 0;
+    justify-content: center !important;
+  }
+  .footer p{
+    text-align: center;
+  }
+  .copyName{
+    margin-left: 0;
+  }
+  .footer-bottom{
+    text-align: center;
+  }
+  .designName{
+    float: none;
+    margin-right: 0;
+  }
+  .whatsapp_div{
+    bottom: 55px;
+  }
+  .flex i{
+    padding: 0px 10px;
+  }
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.owl-themes {
+  font-family: "Poppins", sans-serif;
+  width: 70% !important;
+  height: 40vh;
+  padding: 0px 00px !important;
+}
+.testimonial {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.items {
+  width: 100%;
+  min-height: 250px;
+  padding: 25px 0;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.items div {
+  justify-content: center;
+}
+.testimonial-img img {
+  width: 75px !important;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #c69736;
+}
+.testimonial-para1 p,
+.testimonial-para2 p,
+.testimonial-para3 p {
+  color: white;
+  margin: 0px;
+  padding: 0px 100px;
+  margin-top: 20px !important;
+}
+.testimonial-para2 p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial {
+    background-image: none !important;
+    display: inline-block;
+    height: auto;
+    margin: 30px 0;
+  }
+  .testimonial .owl-themes {
+    font-family: "Poppins", sans-serif;
+    width: 99% !important;
+    height: auto;
+    padding: 0px 00px !important;
+}
+}

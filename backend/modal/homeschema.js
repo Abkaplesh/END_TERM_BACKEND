@@ -1,0 +1,75 @@
+const mongoose = require("mongoose");
+
+const home = mongoose.Schema({
+    title:{
+        type:Object
+    },
+    quote:{
+        type:Object
+    },
+    quotetext:{
+        type:Object
+    },
+    items1:{
+        type:Object
+    },
+    items2:{
+        type:Object
+    },
+    items3:{
+        type:Object
+    },
+    items4:{
+        type:Object
+    },
+    items5:{
+        type:Object
+    },
+    imagehead:{
+        type:Object
+    },
+    img3:{
+        type:String
+    },
+    cat1:{
+        type:Object
+    },
+    cat2:{
+        type:Object
+    },
+    cat3:{
+        type:Object
+    },
+    cat4:{
+        type:Object
+    },
+    imagehead1:{
+        type:Object
+    },
+    image3title:{
+        type:Object
+    },
+    head4:{
+        type:Object
+    },
+    testimonialtitle:{
+        type:Object
+    },
+    testimonialhead:{
+        type:Object
+    },
+    testimonialname:{
+        type:Object
+    },
+    testimonialtitle1:{
+        type:Object
+    },
+    testimonialhead1:{
+        type:Object
+    },
+    testimonialname1:{
+        type:Object
+    },
+});
+const model = mongoose.model("Home", home);
+module.exports = model;

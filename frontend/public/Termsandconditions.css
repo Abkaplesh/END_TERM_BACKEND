@@ -1,0 +1,231 @@
+.aboutus-container {
+    background-image: url("../../assets/images/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutus-head h1 {
+    font-family: "Gill Sans W04 Roman", Calibri, sans-serif;
+    font-size: 4rem;
+    padding: 0px 25%;
+    font-weight: normal;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: 0.06667em;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .aboutus-head {
+    padding: 1.25em 0;
+    background: #fff;
+    mix-blend-mode: lighten;
+  }
+  
+  .aboutus-head::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  .aboutus-container-box {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    padding-top: 0px;
+    background-color: white;
+  }
+  
+  .aboutus-logo hr,
+  .aboutus-logo img {
+    display: inline;
+  }
+  
+  .aboutus-logo {
+    display: flex;
+    align-items: center;
+    padding: 0px 7%;
+    background-color: white;
+    padding-top: 200px;
+  }
+  
+  .aboutus-logo hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid rgb(167, 167, 167);
+    justify-content: center;
+  }
+  
+  .aboutus-logo img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 40px;
+  }
+  
+  .aboutus-logo hr,
+  .aboutus-logo img {
+    display: inline;
+  }
+  
+  .aboutus-logos {
+    display: flex;
+    align-items: center;
+    padding: 0px ;
+    background-color: white;
+    
+  }
+  .aboutus-logos p{
+      flex-grow: 3;
+      width: 100%;
+      font-size: 1.1em;
+      font-weight: 1000;
+      color: #a87e3b;
+      text-align: center;
+      letter-spacing: 5px;
+  }
+  
+  .aboutus-logos hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    border-top: 1px solid rgb(167, 167, 167);
+    justify-content: center;
+  }
+
+  .about-para {
+    color: #555;
+    padding: 20px 25%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.1em;
+    line-height: 30px;
+  }
+  
+  .aboutus-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25%;
+  }
+  
+  .aboutus-form form input {
+    padding: 12px 16px;
+  }
+  
+  .aboutus-form form label {
+    font-size: 0.8em;
+    margin: 10px 0px;
+  }
+  
+  .sub-button {
+    margin: 10px 20%;
+    color: white;
+    background: #6d4d15;
+    border: none;
+    font-size: 0.8em;
+  }
+  
+  .about-us-decor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-us-decor div {
+    width: 100%;
+  }
+  
+  .about-us-decor div img {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+  }
+  
+  .about-us-decor div h5 {
+    color: #a87e3b;
+    font-size: 1.1em;
+    letter-spacing: 7px;
+    text-align: center;
+  }
+  
+  .about-us-decor div p {
+    color: #0000008a;
+    text-align: center;
+    font-weight: 1000;
+  }
+  
+.term-condition-cont table{
+text-align: center;
+align-items: flex-start;
+}
+
+.term-condition-cont table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .term-condition-cont table th, .term-condition-cont table td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .term-condition-cont table tr:nth-child(odd) {background-color: #f2f2f2;}
+
+  .term-cond b{
+    font-family: 'Merriweather', serif;
+    font-size: .8125em;
+    font-weight: 600;
+    line-height: 2.5;
+    letter-spacing: .04em;
+    color: #555;
+  }
+  @media only screen and (max-width: 900px) {
+    .about-us-decor div img {
+      height: 250px;
+      width: 100%;
+      margin: 20px;
+    }
+    .about-us-decor {
+      flex-direction: column;
+    }
+    .aboutus-logo {
+      padding: 20px;
+    }
+    .aboutus-head h1 {
+      padding: 10px;
+      font-size: 3.5em;
+    }
+    .about-para {
+      padding: 20px;
+    }
+    .aboutus-form form {
+      padding: 30px;
+    }
+    .abooutus-images div:nth-child(2){
+  order: 1;
+    }
+    .abooutus-images div:nth-child(1){
+  order: 2;
+  
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+      .aboutus-container {
+      padding: 20px;
+      }
+  .aboutus-container-box {
+  padding: 20px;
+  }
+  
+  .about-us-decor div img {
+      height: 250px;
+      width: 90%;
+      margin: 10px;
+    }
+  }

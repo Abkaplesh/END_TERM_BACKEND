@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Urbanist:wght@200&display=swap");
+body {
+  margin: 0;
+  font-family: 'Gill Sans W04 Roman', Calibri, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+code {
+  font-family: 'Gill Sans W04 Roman', Calibri, sans-serif;
+}
+
+
+
+/* Global */

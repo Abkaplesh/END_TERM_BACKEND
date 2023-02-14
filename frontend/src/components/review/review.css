@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  padding: 20px;
+}
+.review {
+  width: 100%;
+  margin-top: 20px;
+}
+.review-name {
+  display: flex;
+  margin-top: 2rem;
+}
+.review-name img {
+  width: 75px !important;
+  height: 75px;
+  border-radius: 50%;
+}
+.review-name p {
+  margin-left: 20px;
+}
+.star-ratings {
+  width: 130px;
+  margin-top: 1rem;
+}
+.review-name span {
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.reviews-para p {
+  margin: 0px;
+  font-weight: 700;
+
+  color: white;
+  flex-grow: 2;
+}
+
+.owl-themes {
+  font-family: "Poppins", sans-serif;
+  width: 680px !important;
+  height: auto;
+  padding: 0px 00px !important;
+  margin: 0px !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 3em;
+  margin: 0px;
+}
+.nav-btn {
+  font-size: 3em;
+}
+.owl-dots {
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}
+.owl-dots button span {
+  width: 10px !important;
+  height: 10px !important;
+  display: none;
+}
+.owl-stage-outer {
+  position: relative !important;
+}
+.owl-nav {
+  margin-top: 0px !important;
+}
+@media only screen and (max-width: 600px) {
+  .owl-dots{
+    position: relative !important;
+    left: 0 !important;
+    bottom: -15px;
+  }
+}

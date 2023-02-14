@@ -1,0 +1,384 @@
+.breadcrumbs {
+  width: 100%;
+  border-top: 2px solid #fff;
+}
+.mrp-text{
+  display: none;
+}
+.mrp{
+  display: none !important;
+}
+.detail-section {
+  box-sizing: border-box;
+  height: auto;
+  width: 90%;
+  display: flex;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 1rem;
+}
+
+.detail-section-logo p {
+  color: #c69736;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.details-desc {
+  color: white;
+  padding: 2rem;
+  margin: 0px 10rem;
+}
+.detail-section h1 {
+  color: #c69736;
+  text-align: center;
+  letter-spacing: 0.7rem;
+}
+
+.detail-section-logo {
+  width: 80%;
+  height: 40vh;
+  background-color: rgb(10, 10, 10);
+  margin-top: 7rem;
+}
+
+.detail-section-image {
+  width: 120%;
+  height: 70vh;
+  overflow-y: scroll;
+}
+.detail-section-image::-webkit-scrollbar-track {
+  border: 0px solid #000;
+  padding: 0px;
+  background-color: #404040;
+}
+
+.detail-section-image::-webkit-scrollbar {
+  width: 0px;
+}
+
+.detail-section-image::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #737272;
+  border: 0px solid #000;
+}
+.detail-section-image img{
+  height: 75vh;
+
+}
+.detail-section-text {
+  width: 100%;
+  height: auto;
+  padding-left: 1rem;
+}
+
+.logo-internal-section {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.just-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.just-logo {
+  height: auto;
+  width: 100%;
+}
+
+.just-border {
+  border-top: 1px solid #c69736;
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.detail-section-image img {
+  width: auto;
+  margin-bottom: 10px;
+}
+.detail-section-image {
+  width: 100%;
+}
+
+.detail-section-inner {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-section-inner p {
+  color: #fff;
+  text-align: justify;
+  width: 100%;
+}
+.detail-section-inner h4{
+  font-weight: 500;
+    margin-top: 5px;
+}
+.size-div{
+  width: 30%;
+  display: inline-block;
+}
+.size-div p{
+  margin: 0;
+}
+.qty-text{
+    color: rgb(198, 151, 54) !important;
+    font-size: 1.4em;
+    margin: 0;
+    display: inline;
+}
+.select-qty{
+  width: auto;
+  background: transparent;
+  color: #c69736;
+  font-size: 22px;
+  font-family: monospace;
+  padding: 2px 5px;
+  margin-left: 10px;
+  border: none;
+}
+.main-price{
+  font-size: 20px;
+}
+.highlight-text{
+  color: #c69736;
+}
+.mrp-text{
+  font-size: 16px;
+  color: #666666;
+}
+.mrp{
+  font-size: 16px;
+  color: #666666;
+}
+.tax-text{
+  font-size: 16px;
+  color: #666666;
+  padding-left: 10px;
+}
+.offer-price-text{
+  color: #c69736;
+}
+.offer-price{
+  color: #c69736;
+}
+.detail-section-inner h3 {
+  color: #c69736;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: auto;
+}
+
+.detail-page-customize {
+  display: flex;
+    color: #fff;
+    width: 50%;
+    border-top: 1px solid #c69736;
+    padding: 10px 0;
+    border-bottom: 1px solid #c69736;
+    margin: 20px 0;
+}
+
+.detail-page-customize div {
+  width: 100%;
+  /* border-top: 2px solid gray; */
+  /* border-bottom: 2px solid gray; */
+  /* padding: 1rem; */
+  margin-right: 0;
+  /* margin-top: 1rem; */
+}
+
+.detail-page-button {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.detail-page-button p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+  font-weight: 600;
+}
+
+.detail-page-button button {
+  width: auto;
+  font-size: 18px;
+  letter-spacing: 2px;
+  background: #c69736;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Poppins';
+}
+
+/* Detail Info */
+
+.detail-info {
+  /* height: 10vh; */
+  border-top: 2px solid #c69736;
+  border-bottom: 2px solid #c69736;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.detail-info h2 {
+  color: #c69736;
+  width: 33%;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Related products */
+
+.related-products {
+  /* height: 10vh; */
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.related-products div {
+  width: 100%;
+}
+
+.related-products h1 {
+  text-align: center;
+  color: #c69736;
+}
+
+.just-border-2 {
+  border-top: 0.3rem solid #c69736;
+  height: auto;
+  margin-top: 3rem;
+  width: 20% !important;
+}
+
+.just-border-2 {
+  border-top: 0.3rem solid #c69736;
+  height: auto;
+  margin-top: 2.8rem;
+  width: 15% !important;
+  position: relative;
+  left: 24%;
+}
+
+.just-border-3 {
+  border-top: 0.3rem solid #c69736;
+  height: auto;
+  margin-top: 2.8rem;
+  width: 15% !important;
+  position: relative;
+  right: 24%;
+}
+select option{
+padding: 10px 20px;
+color: white;
+background-color: black;
+}
+.detail-img1{
+  display: inline;
+}
+.detail-img2{
+  display: none;
+  height: auto;
+}
+.detail-info h2:nth-child(4){
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .detail-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .detail-img1{
+    display: none;
+  }
+  .detail-img2{
+    display: block;
+  }
+  .detail-section-logo {
+    width: 100%;
+    margin-top: 1rem;
+    height: auto;
+  }
+  .detail-section-text {
+    padding: 0;
+  }
+  .detail-section-inner {
+    margin-top: 0;
+    margin: 1rem;
+  }
+  .detail-page-button p {
+    width: 41%;
+  }
+  .detail-info {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    font-size: 10px;
+  }
+  .details-desc {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .related-products {
+    font-size: 0.7rem;
+  }
+  .just-border-2 {
+    left: 9%;
+    margin-top: 1.8rem;
+  }
+  .just-border-3 {
+    right: 9%;
+    margin-top: 1.8rem;
+  }
+  .detail-page-button p {
+    font-size: 1.4rem;
+  }
+  .reviews {
+    width: max-content;
+  }
+  .star-ratings {
+    width: 180px;
+  }
+  .detail-page-customize{
+    width: auto;
+  }
+  .detail-info h2{
+    padding: 10px;
+  }
+  .detail-section-inner h3{
+    text-align: center;
+  }
+  .detail-section-inner h4{
+    text-align: center;
+  }
+  .detail-section-inner p{
+    text-align: center;
+  }
+  .detail-page-button button{
+    width: 100%;
+  }
+}

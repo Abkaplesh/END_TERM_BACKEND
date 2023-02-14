@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.cartscreen {
+  font-family: "Poppins", sans-serif;
+}
+.cartcard-holder {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 65%;
+}
+
+.cart-screen {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkkout-box {
+  width: 35%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart-screen {
+    flex-direction: column;
+  }
+  .cart-screen div {
+    height: auto !important;
+  }
+
+  .cartcard-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .checkkout-box {
+    width: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .carts-box {
+    width: 100%;
+    margin: 20px 30px;
+  }
+  .checkout-box{
+    width: auto;
+  }
+  .coupon-area{
+    width: auto;
+    padding-right: 2rem;
+  }
+  .coupon-area input{
+    width: auto;
+  }
+  .checkout-box3{
+    padding: 20px;
+  }
+}

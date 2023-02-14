@@ -1,0 +1,74 @@
+.owl-next {
+  position: absolute;
+  width: 50px;
+  margin: 0px;
+  font-size: 0.5em !important;
+  right: 10px;
+  border-radius: 50% !important;
+  height: 50px;
+  color: white !important;
+  background-color: black !important;
+  top: 44%;
+}
+
+.owl-prev {
+  position: absolute;
+  width: 50px;
+  margin: 0px;
+  font-size: 0.5em !important;
+  color: white !important;
+  background-color: black !important;
+  left: 10px;
+  border-radius: 50% !important;
+  height: 50px;
+  top: 44%;
+}
+
+.item,
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 3em;
+  margin: 0px;
+}
+
+.nav-btn {
+  font-size: 3em;
+}
+
+.owl-dots {
+  position: absolute;
+  top: 87% !important;
+  left: 45%;
+}
+
+.owl-dots button span {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: black !important;
+  border: 5px solid black;
+}
+
+.owl-stage-outer {
+  position: relative !important;
+}
+
+.owl-nav {
+  margin-top: 0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #c69736 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .item,
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+}

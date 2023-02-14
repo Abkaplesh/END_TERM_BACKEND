@@ -1,0 +1,124 @@
+.checkout-page {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  border-bottom: 1px solid #c69736;
+}
+
+.checkout-page input {
+  border-radius: 0.4rem;
+}
+
+.top-info {
+  width: 100%;
+  height: 6vh;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #c69736;
+  color: #c69736;
+}
+
+.top-info h3 {
+  font-weight: 400;
+  margin: 0.4rem;
+}
+
+.left-info {
+  width: 60%;
+}
+
+.top-logo {
+  width: 100%;
+  height: auto;
+}
+
+.top-logo img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 250px;
+  height: 200px;
+  margin-top: 2rem;
+}
+
+.contact-info {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.contact-info p {
+  display: inline;
+  padding: 3rem;
+  padding-left: 4.7rem;
+  font-size: 18px;
+}
+
+.just-width {
+  margin-inline: 5%;
+}
+
+.contact-info input {
+  width: 75%;
+  padding: 1rem;
+  margin: 3rem;
+  margin-left: 5rem;
+}
+
+.lower-info h2 {
+  padding-left: 3rem;
+  margin: 0;
+}
+
+.just-border-4 {
+  width: 80%;
+  border-top: 1px solid #fff;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.right-info {
+  height: 150vh;
+  width: 40%;
+  background: rgb(56, 56, 56);
+}
+
+.first-right-div {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.inner-section-info div {
+  border-bottom: 1px solid gray;
+}
+
+.first-right-div img {
+  height: 100px;
+  width: 100px;
+}
+
+.second-right-div {
+  padding: 2rem;
+}
+
+.second-right-div input,
+button {
+  padding: 1rem;
+}
+
+.second-right-div input {
+  width: 60%;
+}
+
+.second-right-div button {
+  width: 25%;
+  margin-left: 1rem;
+  color: #fff;
+  background: gray;
+}
+
+.inner-section-info {
+  padding: 1rem;
+  margin: 3rem;
+}

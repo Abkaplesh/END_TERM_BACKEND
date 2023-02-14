@@ -1,0 +1,71 @@
+.carts-box {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  border: 3px solid #c69736;
+  padding: 20px;
+  position: relative;
+  margin: 20px;
+  height: auto;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.price-strike{
+  display: none;
+}
+.carts-box h1 {
+  color: #c69736;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.carts-imgbox img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.carts-quant-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.subtotals-price {
+  color: white;
+}
+.ccartprice{
+  margin: 0;
+  font-size: 18px !important;
+}
+.ccartqty{
+  margin: 8px;
+}
+.ccartsize{
+  margin: 8px;
+}
+.carts-detail-heading {
+  color: gold;
+}
+.subtotals-price {
+  display: flex;
+  justify-content: center;
+}
+.remove {
+  border-radius: 50%;
+  background-color: gray;
+  position: absolute;
+  padding: 2px 7px;
+  top: -10px;
+  right: -8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carts-box:hover {
+  transform: scale(1.05);
+}

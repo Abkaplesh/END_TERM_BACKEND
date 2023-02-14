@@ -1,0 +1,26 @@
+.coupon-area p {
+  color: #fff;
+  margin-left: 2.5rem;
+}
+
+.coupon-area {
+  width: 100%;
+  border-bottom: 1px solid #c69736;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.coupon-area input {
+  padding: 0.5rem;
+  width: 20%;
+  border: none;
+  margin-bottom: 2rem;
+  margin-left: 2.5rem;
+}
+
+.coupon-area button {
+  padding: 0.5rem;
+  background: #c69736;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,40 @@
+.mainslider-heading {
+  padding: 10px 50px;
+  color: rgb(82, 82, 82);
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.owl-next,
+.owl-prev {
+  height: 50px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.open-galary {
+  float: right;
+  color: rgb(56, 175, 255);
+  display: none;
+}
+.open-galary p {
+  color: rgb(56, 175, 255);
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainslider-heading {
+    padding: 10px 20px;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .open-galary {
+    display: inline;
+    margin-top: 15px;
+  }
+  .mainslider-heading {
+    font-size: 1.4em;
+  }
+}
